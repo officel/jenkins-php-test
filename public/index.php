@@ -29,6 +29,12 @@
  *
  * @author "Y.Nishimura"
  */
-
-echo "OK";
-echo "OK";
+class Test
+{
+	/**
+	 * test function
+	 */
+	public function test(){
+		echo __CLASS__ , ':' , __FUNCTION__;
+	}
+}
