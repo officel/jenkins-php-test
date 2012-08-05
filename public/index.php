@@ -45,6 +45,10 @@ class Test
 	 */
 	public function Test_No001() {
 		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
+		for ($i = 0;$i<10;$i++){
+			echo '.';
+		}
+		echo 'done';
 	}
 
 
@@ -55,6 +59,10 @@ class Test
 	 */
 	public function Test_No002() {
 		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
+		for ($i = 0;$i<10;$i++){
+			echo '.';
+		}
+		echo 'done';
 	}
 
 
