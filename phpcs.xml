@@ -41,7 +41,7 @@ make by http://edorian.github.com/php-coding-standard-generator/#phpcs
 	<rule ref="PEAR.Commenting.FunctionComment"/>
 	<rule ref="PEAR.Commenting.InlineComment"/>
 	<rule ref="PEAR.ControlStructures.ControlSignature"/>
-	<rule ref="PEAR.NamingConventions.ValidFunctionName"/>
+	<!-- rule ref="PEAR.NamingConventions.ValidFunctionName"/ -->
 	<rule ref="PEAR.NamingConventions.ValidVariableName"/>
 	<rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops"/>
 	<rule ref="Squiz.PHP.Eval"/>
