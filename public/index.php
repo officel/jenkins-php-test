@@ -27,14 +27,23 @@
  *
  * this is work
  *
- * @author "Y.Nishimura"
+ * @category  OfficeL
+ * @package   Officel
+ * @author    Y.Nishimura <nishimuray@gmail.com>
+ * @copyright 2012 - Office L
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://github.com/officel/jenkins-php-test.git
  */
 class Test
 {
+
+
 	/**
 	 * test function
 	 */
-	public function test(){
+	public function test() {
 		echo __CLASS__ , ':' , __FUNCTION__;
 	}
+
+
 }
