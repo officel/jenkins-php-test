@@ -2,14 +2,14 @@
 /**
  * PHP Unit Test test
  *
- * PHP　version 5.3
+ * PHP version 5.3
  *
  * @category  OfficeL
  * @package   Officel
- * @author	Y.Nishimura <nishimuray@gmail.com>
+ * @author    Y.Nishimura <nishimuray@gmail.com>
  * @copyright 2012 - Office L
  * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link	  http://github.com/officel/jenkins-php-test.git
+ * @link      http://github.com/officel/jenkins-php-test.git
  */
 /**
  * PHP　Unit Test test 1st test
@@ -18,10 +18,10 @@
  *
  * @category  OfficeL
  * @package   Officel
- * @author	Y.Nishimura <nishimuray@gmail.com>
+ * @author    Y.Nishimura <nishimuray@gmail.com>
  * @copyright 2012 - Office L
  * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link	  http://github.com/officel/jenkins-php-test.git
+ * @link      http://github.com/officel/jenkins-php-test.git
  */
 class JenkinsPhpTestTest extends PHPUnit_Framework_TestCase
 {
@@ -29,6 +29,8 @@ class JenkinsPhpTestTest extends PHPUnit_Framework_TestCase
 
 	/**
 	 * test 1st 
+	 *
+	 * @return none
 	 */
 	public function testPushAndPop() {
 		$stack = array();
