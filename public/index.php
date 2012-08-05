@@ -40,8 +40,10 @@ class Test
 
 	/**
 	 * test function
+	 *
+	 * @return none
 	 */
-	public function test_01() {
+	public function Test_01() {
 		echo __CLASS__ , ':' , __FUNCTION__;
 	}
 
