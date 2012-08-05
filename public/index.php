@@ -44,8 +44,23 @@ class Test
 	 * @return none
 	 */
 	public function Test_No001() {
-		echo __CLASS__ , ':' , __FUNCTION__;
+		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
+	}
+
+
+	/**
+	 * test function
+	 *
+	 * @return none
+	 */
+	public function Test_No002() {
+		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
 	}
 
 
 }
+
+$test = new Test();
+
+$test->Test_No001();
+$test->Test_No002();
