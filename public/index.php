@@ -45,10 +45,10 @@ class Test
 	 */
 	public function Test_No001() {
 		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
-		for ($i = 0;$i<10;$i++){
+		for ($i = 0;$i < 10;$i++) {
 			echo '.';
 		}
-		echo 'done';
+		echo 'done',PHP_EOL;
 	}
 
 
@@ -59,16 +59,30 @@ class Test
 	 */
 	public function Test_No002() {
 		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
-		for ($i = 0;$i<10;$i++){
+		for ($i = 0;$i < 10;$i++) {
 			echo '.';
 		}
-		echo 'done';
+		echo 'done',PHP_EOL;
 	}
 
 
+	/**
+	 * test private function
+	 *
+	 * @return none
+	 */
+	private function test_local_01() {
+		echo __CLASS__ , ':' , __FUNCTION__ , PHP_EOL;
+		for ($i = 0;$i < 10;$i++) {
+			echo '.';
+		}
+		echo 'done',PHP_EOL;
+	}
 }
 
 $test = new Test();
 
 $test->Test_No001();
 $test->Test_No002();
+$test->test_local_01();
+
