@@ -41,7 +41,7 @@ class Test
 	/**
 	 * test function
 	 */
-	public function test() {
+	public function test_01() {
 		echo __CLASS__ , ':' , __FUNCTION__;
 	}
 
